@@ -17,3 +17,14 @@ ALTER DATABASE  DBMS MODIFY NAME = DB
 
 USE MASTER
 DROP DATABASE HILCOE
+
+
+-- Question 4 Solution : Create Table Query 
+
+CREATE TABLE Students (
+    Id int ,
+    FirstName varchar(20),
+    LastName varchar(20),
+    Adress varchar(255) ,
+    Ciry varchar(20)
+)
