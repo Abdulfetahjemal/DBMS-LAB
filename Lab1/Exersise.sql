@@ -19,8 +19,10 @@ USE MASTER
 DROP DATABASE HILCOE
 
 
--- Question 4 Solution : Create Table Query 
+-- Question 4 Solution : Create Database & Table Query 
 
+CREATE DATABASE Lab5
+USE Lab5
 CREATE TABLE Students (
     Id int ,
     FirstName varchar(20),
